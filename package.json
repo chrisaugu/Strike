@@ -1,0 +1,21 @@
+{
+  "name": "videostreaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file_upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Christian AUGUSTYN",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "express": "^4.17.1",
+    "express-upload": "^0.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sha1": "^1.1.1"
+  }
+}
